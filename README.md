@@ -7,3 +7,10 @@ Among others, the key contributors are:
 - [Myself](https://github.com/charles-mills)
 - [Saimpreet Singh](https://github.com/S01101S)
 
+## Features
+
+- Location-based landmarks and exploration on a 2D map.
+- AR-based brand capture for virtual rewards.
+- A persistent rewards and item inventory.
+- PvP (simulated).
+- Leaderboards (simulated).
