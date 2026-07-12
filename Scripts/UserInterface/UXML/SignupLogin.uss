@@ -1,0 +1,80 @@
+:root {
+}
+
+.btn {
+    padding: 12px 20px;
+    margin: 8px 40px;
+    font-size: 20px;
+    -unity-font-style: bold;
+    border-radius: 15px;
+    color: rgb(50, 50, 50);
+    background-color: rgba(255, 255, 255, 0.9);
+    border-color: rgb(232, 232, 232);
+    white-space: normal;
+    -unity-text-align: middle-center;
+}
+
+.btn:active {
+    background-color: rgba(70, 70, 70, 0.95);
+}
+
+.btn-secondary {
+    font-size: 16px;
+    margin: 8px 50px;
+}
+
+#Container {
+    flex-grow: 1;
+    background-repeat: space space;
+}
+
+#TopSpacer {
+    flex-grow: 1;
+}
+
+#UnidaysLogo {
+    flex-grow: 1;
+    -unity-background-scale-mode: scale-to-fit;
+    width: auto;
+    height: 20%;
+}
+
+#MidSpacer {
+    flex-grow: 1;
+}
+
+#BottomSpacer {
+    flex-grow: 1;
+}
+
+#SignUpUsername .unity-text-field__input,
+#SignUpPassword .unity-text-field__input {
+    margin: 8px 40px;
+    font-size: 16px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-color: rgb(232, 232, 232);
+    padding: 10px 12px;
+    color: rgb(50, 50, 50);
+}
+
+#ChooseYourTeamText {
+    font-size: 24px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    color: rgb(255, 255, 255);
+    margin: 8px 40px;
+}
+
+#TeamNTUButton {
+    color: rgb(223, 27, 241);
+}
+
+#TeamUoNButton {
+    color: rgb(16, 38, 59);
+}
+
+#SubmitButton:disabled {
+    background-color: rgba(200, 200, 200, 0.75);
+    color: rgba(50, 50, 50, 0.75);
+}

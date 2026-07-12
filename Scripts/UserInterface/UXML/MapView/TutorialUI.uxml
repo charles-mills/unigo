@@ -1,0 +1,42 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/UserInterface/UXML/MapView/TutorialUI.uss?fileID=7433441132597879392&amp;guid=e463bb714094e474b96f5d6229354c8d&amp;type=3#TutorialUI" />
+    <ui:VisualElement picking-mode="Ignore" class="ChoiceBackground" style="flex-grow: 1; background-color: rgb(40, 180, 0); width: 80%; height: 80%; max-height: 80%; max-width: 80%; top: 10%; left: 10%; border-left-width: 1px; border-left-color: rgb(22, 81, 0); border-right-color: rgb(22, 99, 0); border-top-color: rgb(22, 99, 0); border-bottom-color: rgb(22, 81, 0); border-top-width: 3px; border-right-width: 3px; border-bottom-width: 1px;">
+        <ui:VisualElement enabled="true" style="flex-grow: 1; background-color: rgb(32, 157, 0); width: 87%; height: 86%; position: absolute; left: 6.5%; top: 2%; border-top-left-radius: 25px; border-top-right-radius: 25px; border-bottom-left-radius: 25px; border-bottom-right-radius: 25px;" />
+        <ui:VisualElement style="flex-grow: 1; width: 100%; height: 100%;">
+            <ui:VisualElement name="close" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Resources/Icons/GreenCloseIcon.png?fileID=2800000&amp;guid=041585c876a231442a9aebd8695fdf2a&amp;type=3#GreenCloseIcon&quot;); width: 30px; height: 30px; align-self: center; position: absolute; top: 92%;" />
+            <ui:ScrollView enabled="true" name="menuSelect" style="position: absolute; min-width: 100%; left: 0%; opacity: 1;">
+                <ui:Button text="Catching items" name="catching_items_button" focusable="true" enabled="true" selectable="true" style="background-color: rgb(123, 123, 123);" />
+                <ui:Button text="PvP" name="PvP_button" focusable="true" enabled="true" selectable="true" style="background-color: rgb(123, 123, 123);" />
+                <ui:Button text="Stats" name="Stats_button" focusable="true" enabled="true" selectable="true" style="background-color: rgb(123, 123, 123);" />
+                <ui:Button text="LeaderBoard" name="LeaderBoard_button" focusable="true" enabled="true" selectable="true" style="background-color: rgb(123, 123, 123);" />
+                <ui:Button text="UniStops" name="UniStop_button" focusable="true" enabled="true" selectable="true" style="background-color: rgb(123, 123, 123);" />
+            </ui:ScrollView>
+            <ui:ScrollView name="Catching_items" enabled="false" style="position: absolute; display: flex; visibility: visible; opacity: 1; width: 100%; height: 90%;">
+                <ui:Label text="To begin catching tokens tap a&#10;corresponding one on the map" />
+                <ui:VisualElement name="tokenImage" enabled="true" style="flex-grow: 1; overflow: visible; flex-wrap: nowrap; flex-direction: column; -unity-slice-type: sliced; justify-content: flex-start; align-items: flex-start; align-self: center; position: relative; background-image: resource(&apos;Images/TutorialImages/TokenImage&apos;); height: 270px; width: 87%; background-size: 100% 100%;" />
+                <ui:Label text="Upon entering the AR scene&#10;a token will spawn, to throw &#10;a Brand box at the token&#10;swipe toward it" />
+            </ui:ScrollView>
+            <ui:ScrollView name="PvP" enabled="false" style="position: absolute; height: 90%; width: 100%; opacity: 1;">
+                <ui:Label text="upon clicking the PvP button &#10;a random opponent from the&#10;leaderboard will be selected &#10;for you to fight" />
+                <ui:VisualElement name="PvPStart" enabled="true" style="flex-grow: 1; overflow: visible; flex-wrap: nowrap; flex-direction: column; -unity-slice-type: sliced; justify-content: flex-start; align-items: flex-start; align-self: center; position: relative; background-image: resource(&apos;Images/TutorialImages/PvPStart&apos;); height: 900px; width: 87%; min-height: auto;" />
+                <ui:Label text="after this you and your&#10;opponent will each roll dice to&#10;determine who will attack first.&#10;The player with the higher roll&#10;going first, then the players &#10;will take turns rolling die to &#10;deal damage to their opponent" />
+                <ui:VisualElement name="PvPAttack" enabled="true" style="flex-grow: 1; overflow: visible; flex-wrap: nowrap; flex-direction: column; -unity-slice-type: sliced; justify-content: flex-start; align-items: flex-start; align-self: center; position: relative; background-image: resource(&apos;Images/TutorialImages/PvPAttack&apos;); height: 100%; width: 87%;" />
+                <ui:Label text="after one player has been&#10;defeated the screen closes&#10;and the winner gains a point&#10;for PvP wins leaderboard also&#10;shown on the player stats &#10;page" />
+                <ui:VisualElement name="PvPWin" enabled="true" style="flex-grow: 1; overflow: visible; flex-wrap: nowrap; flex-direction: column; -unity-slice-type: sliced; justify-content: flex-start; align-items: flex-start; align-self: center; position: relative; background-image: resource(&apos;Images/TutorialImages/PvPWin&apos;); height: 100%; width: 87%;" />
+            </ui:ScrollView>
+            <ui:ScrollView name="Stats" enabled="false" style="position: absolute; height: 90%; width: 100%; opacity: 1;">
+                <ui:Label text="upon opening the Stats page &#10;a screen showing various feats&#10;the player has achieved through&#10;their journey" />
+                <ui:VisualElement name="StatsPage" enabled="true" style="flex-grow: 1; overflow: visible; flex-wrap: nowrap; flex-direction: column; -unity-slice-type: sliced; justify-content: flex-start; align-items: flex-start; align-self: center; position: relative; background-image: resource(&apos;Images/TutorialImages/EmptyStatsPage&apos;); height: 270px; width: 87%;" />
+            </ui:ScrollView>
+            <ui:ScrollView name="LeaderBoard" enabled="false" style="position: absolute; height: 90%; width: 100%; opacity: 1;">
+                <ui:Label text="upon opening the Leaderboard &#10;page a screen showing some of &#10;the feats you and other players &#10;have achieved on your journey" />
+                <ui:VisualElement name="LeaderboardPage" enabled="true" style="flex-grow: 1; overflow: visible; flex-wrap: nowrap; flex-direction: column; -unity-slice-type: sliced; justify-content: flex-start; align-items: flex-start; align-self: center; position: relative; background-image: resource(&apos;Images/TutorialImages/EmptyLeaderboardPage&apos;); height: 270px; width: 87%;" />
+            </ui:ScrollView>
+            <ui:ScrollView name="UniStop" enabled="false" style="position: absolute; height: 90%; width: 100%; opacity: 1;">
+                <ui:Label text="UniStops enhance the spawn&#10;rate of tokens associated with&#10;the location" />
+                <ui:VisualElement name="UniStop" enabled="true" style="flex-grow: 1; overflow: visible; flex-wrap: nowrap; flex-direction: column; -unity-slice-type: sliced; justify-content: flex-start; align-items: flex-start; align-self: center; position: relative; background-image: resource(&apos;Images/TutorialImages/UniStop&apos;); height: 270px; width: 87%;" />
+                <ui:Label text="Upon tapping a UniStop you&#10;will be given a brief&#10;description of the location the&#10;stop is assigned to" />
+            </ui:ScrollView>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

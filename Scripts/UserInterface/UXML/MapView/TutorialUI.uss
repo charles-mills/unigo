@@ -1,0 +1,42 @@
+:root {
+
+}
+
+.ChoiceBackground {
+  border-radius: 50px;
+  padding: 20px; 
+  width: 200px;
+  height: 150px;  
+}
+
+.unity-scroller__low-button {
+    display: none;
+}
+
+.unity-scroller__high-button {
+    display: none;
+}
+
+.unity-scroller--vertical {
+    width: 10px;
+    border-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
+.unity-base-slider__tracker {
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+}
+
+
+.unity-base-slider__dragger {
+    background-color: rgb(80, 80, 80);
+    border-radius: 5px;
+    width: 8px;
+    left: 1px;
+}
+
+.unity-scroller--horizontal {
+    display: none;
+}

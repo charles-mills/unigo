@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/MultiView/UserInterface/UXML/MapView/InventoryStyleSheet.uss?fileID=7433441132597879392&amp;guid=d8ebd38075166534a8e337a6ba919b7d&amp;type=3#InventoryStyleSheet" />
+    <ui:VisualElement style="flex-grow: 1; -unity-background-image-tint-color: rgb(255, 255, 255); background-image: resource(&apos;Images/background&apos;); background-color: rgb(38, 38, 38); color: rgb(255, 239, 239); top: 0;">
+        <ui:VisualElement style="flex-grow: 1; top: 30px; margin-bottom: 30px; margin-top: 30px; margin-left: 20px; margin-right: 20px; max-height: 80%;">
+            <ui:Label text="Your Profile&#10;" name="YourStatsTitle" style="-unity-text-align: upper-center; -unity-font-style: bold; font-size: 28px;" />
+            <ui:VisualElement class="divider" style="background-color: rgba(255, 255, 255, 0.84);" />
+            <ui:Label text="Username&#10;" name="Username" style="-unity-text-align: upper-center;" />
+            <ui:Label text="Team" name="Team" style="-unity-text-align: upper-center;" />
+            <ui:VisualElement class="divider" style="flex-grow: 0; flex-basis: 5px; background-color: rgba(255, 255, 255, 0.84);" />
+            <ui:Label text="Successful Catches: X" name="CatchSuccess" style="-unity-text-align: upper-center;" />
+            <ui:Label text="Failed Catches: X" name="CatchFail" style="-unity-text-align: upper-center;" />
+            <ui:VisualElement style="flex-grow: 1;" />
+            <ui:VisualElement name="MenuButton" style="flex-grow: 1; position: absolute; height: 66px; width: 64px; top: auto; left: 50%; background-image: url(&quot;project://database/Assets/Extras/Samples/XR%20Interaction%20Toolkit/3.2.2/AR%20Starter%20Assets/ARDemoSceneAssets/Sprites/Button%20-%20Circular%20BG.png?fileID=2800000&amp;guid=7347b6042ec9e40c4a3cbd7077c91e67&amp;type=3#Button - Circular BG&quot;); -unity-background-image-tint-color: rgb(89, 245, 75); bottom: 10px; right: 0; align-self: center; translate: -50% 0;">
+                <ui:VisualElement name="MapIcon" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Resources/Icons/map.png?fileID=2800000&amp;guid=315b5ecaef50544778fdaf883aa79f99&amp;type=3#map&quot;); position: absolute; height: 44px; width: 49px; top: 9px; left: 8px; background-size: 90% 90%;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

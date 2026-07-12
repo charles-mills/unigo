@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd"
+         editor-extension-mode="False">
+    <ui:Foldout text="NPC" name="NPC">
+        <ui:Label text="Tokens caught: 0" name="NPCTokensCaught" class="stat-label"/>
+        <ui:Label text="Enemies defeated: 0" name="NPCDefeatedAI" class="stat-label"/>
+    </ui:Foldout>
+</ui:UXML>

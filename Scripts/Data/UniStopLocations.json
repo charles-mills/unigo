@@ -1,0 +1,109 @@
+{
+  "unistops": [
+    {
+      "id": "us2",
+      "latitude": 52.950474,
+      "longitude": -1.182819,
+      "name": "Jubilee Conference Centre",
+      "description": "A hotel and conference venue near the south entrance of Jubilee Campus, used for events, accommodation and large meetings."
+    },
+    {
+      "id": "us3",
+      "latitude": 52.95181,
+      "longitude": -1.18651,
+      "name": "Business School South",
+      "description": "One of Nottingham University Business School's main Jubilee Campus buildings, used for teaching, seminar rooms and student services."
+    },
+    {
+      "id": "us4",
+      "latitude": 52.95288,
+      "longitude": -1.18709,
+      "name": "The Atrium",
+      "description": "A campus restaurant and social space on the lakeside route between the main academic buildings and the halls."
+    },
+    {
+      "id": "us5",
+      "latitude": 52.953672,
+      "longitude": -1.188458,
+      "name": "Djanogly Library",
+      "description": "The Djanogly Learning Resource Centre, Jubilee Campus's lakeside library supporting Education and Computer Science."
+    },
+    {
+      "id": "us6",
+      "latitude": 52.954343,
+      "longitude": -1.188902,
+      "name": "Business School North",
+      "description": "The northern Business School building, with teaching rooms, seminar space, postgraduate study areas and business school services."
+    },
+    {
+      "id": "us7",
+      "latitude": 52.952426,
+      "longitude": -1.186882,
+      "name": "Dearing Building",
+      "description": "Home to the School of Education, with reception, seminar rooms and the Atrium workspace overlooking the lakeside."
+    },
+    {
+      "id": "us8",
+      "latitude": 52.95212,
+      "longitude": -1.185218,
+      "name": "Yang Fujia Building",
+      "description": "A multi-use academic building housing teaching space alongside services such as Careers and Employability, CELE and Applied Psychology."
+    },
+    {
+      "id": "us9",
+      "latitude": 52.952909,
+      "longitude": -1.185766,
+      "name": "Newark Hall",
+      "description": "A Jubilee Campus hall of residence with study space, common rooms and the Welcome Point Jubilee accommodation reception."
+    },
+    {
+      "id": "us10",
+      "latitude": 52.953432,
+      "longitude": -1.186081,
+      "name": "Southwell Hall",
+      "description": "A Jubilee Campus hall of residence close to the north entrance and sports centre, with accessible student accommodation."
+    },
+    {
+      "id": "us11",
+      "latitude": 52.95103,
+      "longitude": -1.1822,
+      "name": "Ingenuity Centre",
+      "description": "An Innovation Park building on the south-east side of Jubilee Campus, used by university teams and partner organisations."
+    },
+    {
+      "id": "us12",
+      "latitude": 52.95391,
+      "longitude": -1.18796,
+      "name": "The Exchange",
+      "description": "An academic building beside the Djanogly Learning Resource Centre, with teaching space and nearby study and social facilities."
+    },
+    {
+      "id": "us13",
+      "latitude": 52.95172,
+      "longitude": -1.18516,
+      "name": "Xu Yafen Building",
+      "description": "A multi-use academic building with teaching rooms, professional services, careers support and Cafe Aspire."
+    },
+    {
+      "id": "us14",
+      "latitude": 52.95314,
+      "longitude": -1.18401,
+      "name": "Jubilee Campus Sports Centre",
+      "description": "Jubilee's main sports and fitness hub, with a large gym, indoor courts, studio space and outdoor training facilities."
+    },
+    {
+      "id": "us15",
+      "latitude": 52.95286,
+      "longitude": -1.18572,
+      "name": "Welcome Point Jubilee",
+      "description": "The main reception and support desk for Newark and Southwell Hall, useful for accommodation queries and arrivals."
+    },
+    {
+      "id": "us16",
+      "latitude": 52.95122,
+      "longitude": -1.18372,
+      "name": "Sir Colin Campbell Building",
+      "description": "An Innovation Park academic building near the south side of Jubilee Campus, close to the enterprise and sustainable chemistry buildings."
+    }
+  ]
+}

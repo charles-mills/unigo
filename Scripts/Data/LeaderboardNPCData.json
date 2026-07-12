@@ -1,0 +1,67 @@
+{
+  "NPCData": [
+    {
+      "id": "NPC1",
+      "name": "Bob",
+      "team": "UoN",
+      "tokensCaught": 5,
+      "enemiesDefeated": 2
+    },
+    {
+      "id": "NPC2",
+      "name": "Alice",
+      "team": "NTU",
+      "tokensCaught": 10,
+      "enemiesDefeated": 5
+    },
+    {
+      "id": "NPC3",
+      "name": "Stewie",
+      "team": "NTU",
+      "tokensCaught": 100,
+      "enemiesDefeated": 50
+    },
+    {
+      "id": "NPC4",
+      "name": "Sarah",
+      "team": "UoN",
+      "tokensCaught": 32,
+      "enemiesDefeated": 19
+    },
+    {
+      "id": "NPC5",
+      "name": "Oliver",
+      "team": "UoN",
+      "tokensCaught": 52,
+      "enemiesDefeated": 12
+    },
+    {
+      "id": "NPC6",
+      "name": "Leo",
+      "team": "NTU",
+      "tokensCaught": 12,
+      "enemiesDefeated": 2
+    },
+    {
+      "id": "NPC7",
+      "name": "Sophia",
+      "team": "UoN",
+      "tokensCaught": 2,
+      "enemiesDefeated": 0
+    },
+    {
+      "id": "NPC7",
+      "name": "Simon",
+      "team": "UoN",
+      "tokensCaught": 1,
+      "enemiesDefeated": 4
+    },
+    {
+      "id": "NPC7",
+      "name": "Garry",
+      "team": "NTU",
+      "tokensCaught": 5,
+      "enemiesDefeated": 0
+    }
+  ]
+}

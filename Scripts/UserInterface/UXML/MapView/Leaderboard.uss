@@ -1,0 +1,112 @@
+:root {
+}
+
+#BlackBorder {
+    flex-grow: 1;
+    background-color: rgb(0, 0, 0);
+    background-image: url("/Assets/Resources/Images/background.png")
+}
+
+#GreyBackground {
+    flex-grow: 1;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 50px 25px 35px 25px;
+}
+
+#CloseUI {
+    background-color: rgb(255, 255, 255);
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
+}
+
+#HeaderRow {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 8px 4px;
+}
+
+#Header {
+    font-size: 24px;
+    -unity-font-style: bold;
+    color: rgb(255, 255, 255);
+    flex-grow: 1;
+    -unity-text-align: middle-center;
+}
+
+#Player {
+    font-size: 18px;
+    background-color: rgba(255, 3, 32, 0.52);
+    color: rgb(255, 255, 255);
+}
+
+.team-ntu {
+    font-size: 18px;
+    background-color: rgb(223, 27, 241);
+    color: rgb(255, 255, 255);
+}
+
+.team-uon {
+    font-size: 18px;
+    background-color: rgba(0, 55, 255, 0.25);
+    color: rgb(255, 255, 255);
+    border-bottom-width: 4px;
+    border-bottom-color: rgb(255, 255, 255);
+}
+
+.stat-label {
+    font-size: 14px;
+    margin-left: 2%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.unity-scroll-view {
+    flex-grow: 1;
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 6px;
+}
+
+.unity-scroller--vertical {
+    width: 0;
+    visibility: hidden;
+}
+
+.unity-foldout {
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(255, 255, 255);
+}
+
+.unity-foldout__toggle {
+    margin: 0;
+    padding: 2px 4px;
+}
+
+.unity-foldout__content {
+    margin: 0;
+    padding: 0 4px 0;
+}
+
+.unity-foldout__toggle .unity-label {
+    -unity-font-style: bold;
+}
+
+.unity-foldout__toggle .unity-toggle__checkmark {
+    display: none;
+}
+
+.unity-foldout__toggle:active .unity-label {
+    color: rgb(255, 255, 255);
+}
+
+.unity-foldout__toggle:focus .unity-label {
+    color: rgb(255, 255, 255);
+}
+
+.unity-scroller--horizontal {
+    width: 0;
+    visibility: hidden;
+}

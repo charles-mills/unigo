@@ -1,0 +1,34 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd"
+         editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/Display/uxml&amp;stylesheets/SignupLogin.uss?fileID=7433441132597879392&amp;guid=0b62b529e3a454223a02cc3002001619&amp;type=3#SignupLogin"/>
+    <ui:VisualElement name="Container"
+                      style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Images/background.png?fileID=2800000&amp;guid=33a60210f24214713be4be06b87291ea&amp;type=3#background&quot;); background-repeat: space space;">
+        <ui:VisualElement name="MainSelection" style="flex-grow: 1;">
+            <ui:VisualElement name="TopSpacer" style="flex-grow: 1;"/>
+            <ui:VisualElement name="UnidaysLogo"
+                              style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Images/Logo.png?fileID=2800000&amp;guid=2dccfd98ad7944bbe8cbff020773fa08&amp;type=3#Logo&quot;); -unity-background-scale-mode: scale-to-fit; top: 0%;"/>
+            <ui:VisualElement name="MidSpacer" style="flex-grow: 1;"/>
+            <ui:Button text="Login or Signup" name="LoginSignupButton" class="btn"/>
+            <ui:Button text="Continue as Guest" name="ContinueGuestButton" class="btn btn-secondary"/>
+            <ui:VisualElement name="BottomSpacer" style="flex-grow: 1;"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="SignUpPanel" style="flex-grow: 1; display: none;">
+            <ui:VisualElement name="TopSpacer" style="flex-grow: 1;"/>
+            <ui:TextField placeholder-text="Username" select-line-by-triple-click="false" name="SignUpUsername"
+                          hide-mobile-input="true"/>
+            <ui:TextField placeholder-text="Password" select-line-by-triple-click="false" name="SignUpPassword"
+                          password="true" hide-mobile-input="true"/>
+            <ui:Button text="Submit" name="SubmitButton" class="btn"/>
+            <ui:Button text="Go Back" name="BackButton" class="btn btn-secondary"/>
+            <ui:VisualElement name="BottomSpacer" style="flex-grow: 1;"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="TeamChoicePanel" style="flex-grow: 1; display: none;">
+            <ui:VisualElement name="TopSpacer" style="flex-grow: 1;"/>
+            <ui:Label text="Choose your Team" name="ChooseYourTeamText"/>
+            <ui:Button text="University of Nottingham" name="TeamUoNButton" class="btn"/>
+            <ui:Button text="Nottingham Trent University" name="TeamNTUButton" class="btn"/>
+            <ui:Button text="Go Back" name="BackButtonTeam" class="btn btn-secondary"/>
+            <ui:VisualElement name="BottomSpacer" style="flex-grow: 1;"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

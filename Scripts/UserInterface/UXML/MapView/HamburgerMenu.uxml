@@ -1,0 +1,34 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/UserInterface/UXML/MapView/HamburgerMenu.uss?fileID=7433441132597879392&amp;guid=2fdd87b44b9ef4a4688654334c5642e7&amp;type=3#HamburgerMenu" />
+    <ui:VisualElement name="Overlay" picking-mode="Ignore">
+        <ui:VisualElement name="MenuPanel">
+            <ui:VisualElement name="HandleBar" />
+            <ui:VisualElement name="ButtonRow">
+                <ui:VisualElement name="PlayerStatButton" class="menu-item">
+                    <ui:VisualElement class="menu-icon-circle">
+                        <ui:VisualElement name="PlayerStatIcon" class="menu-icon" style="background-image: url(&quot;project://database/Assets/Resources/Images/PlayerIcon.png?fileID=2800000&amp;guid=6edbfa27722e4914383c4e8cf8d28e04&amp;type=3#PlayerIcon&quot;);" />
+                    </ui:VisualElement>
+                    <ui:Label text="Profile" class="menu-label" />
+                </ui:VisualElement>
+                <ui:VisualElement name="LeaderboardButton" class="menu-item">
+                    <ui:VisualElement class="menu-icon-circle" style="background-image: none;">
+                        <ui:VisualElement name="LeaderboardIcon" class="menu-icon" style="background-image: url(&quot;project://database/Assets/Resources/Images/LeaderboardIcon.png?fileID=2800000&amp;guid=167e8dc0c9f137046b5b3fec3beda0fd&amp;type=3#LeaderboardIcon&quot;);" />
+                    </ui:VisualElement>
+                    <ui:Label text="Leaderboard" class="menu-label" />
+                </ui:VisualElement>
+                <ui:VisualElement name="PvPButton" class="menu-item">
+                    <ui:VisualElement class="menu-icon-circle">
+                        <ui:VisualElement name="PvPIcon" class="menu-icon" style="background-image: url(&quot;project://database/Assets/Resources/Images/PvPIcon.png?fileID=2800000&amp;guid=7f73bd831f16fac41b0235861ad39d62&amp;type=3#PvPIcon&quot;);" />
+                    </ui:VisualElement>
+                    <ui:Label text="PVP" class="menu-label" />
+                </ui:VisualElement>
+                <ui:VisualElement name="InventoryButton" class="menu-item">
+                    <ui:VisualElement class="menu-icon-circle">
+                        <ui:VisualElement name="InventoryIcon" class="menu-icon" style="background-image: url(&quot;project://database/Assets/Resources/Images/InventoryIcon.png?fileID=2800000&amp;guid=c30bc928feac3db4ba661b6027036f70&amp;type=3#InventoryIcon&quot;);" />
+                    </ui:VisualElement>
+                    <ui:Label text="Inventory" class="menu-label" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

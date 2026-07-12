@@ -1,0 +1,32 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/Display/uxml&amp;stylesheets/InventoryStyleSheet.uss?fileID=7433441132597879392&amp;guid=d8ebd38075166534a8e337a6ba919b7d&amp;type=3#InventoryStyleSheet"/>
+    <ui:VisualElement name="Container" class="container">
+        <ui:VisualElement name="Inventory"
+                          style="flex-grow: 1; width: 100%; height: 100%; max-width: 100%; max-height: 100%; padding-top: 25px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; background-image: resource('Images/background'); background-color: rgb(38, 38, 38); color: rgb(255, 255, 255); border-left-color: rgba(255,255,255,0); border-right-color: rgba(255,255,255,0); border-top-color: rgba(255,255,255,0); border-bottom-color: rgba(255,255,255,0);">
+            <ui:Label text="Inventory" name="Header"
+                      style="font-size: 24px; -unity-font-style: bold; color: rgb(255, 255, 255); -unity-text-align: middle-center; border-bottom-color: rgba(255, 255, 255, 0.84); border-bottom-width: 4px;"/>
+            <ui:ScrollView>
+                <ui:VisualElement name="SlotContainer"
+                                  style="flex-grow: 1; flex-wrap: wrap; justify-content: flex-start; width: 100%; flex-direction: row; align-content: flex-start;"/>
+            </ui:ScrollView>
+
+            <ui:VisualElement name="ConfirmationOverlay" class="confirmationOverlay">
+                <ui:VisualElement name="ConfirmationPopup" class="confirmationPopup">
+                    <ui:Label name="ConfirmationText"
+                            text="Are you sure you want to remove this code?"
+                            class = "confirmationText"/>
+                    <ui:VisualElement class="confirmationButtonRow">
+                        <ui:Button name="ConfirmUseButton" text="Yes" class="confirmUseButton"/>
+                        <ui:Button name="GoBackButton" text="Go back" class="goBackButton"/>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+
+            <ui:VisualElement name="MapButton"
+                              style="flex-grow: 1; background-color: rgba(48, 48, 48, 0); background-image: url(&quot;project://database/Assets/Samples/XR%20Interaction%20Toolkit/3.2.2/AR%20Starter%20Assets/ARDemoSceneAssets/Sprites/Button%20-%20Circular%20BG.png?fileID=2800000&amp;guid=7347b6042ec9e40c4a3cbd7077c91e67&amp;type=3#Button - Circular BG&quot;); background-size: 75% 75%; background-position-x: center; top: auto; position: absolute; right: auto; height: 100px; width: 100px; cursor: url(&quot;project://database/Assets/Icons/brandBox.png?fileID=2800000&amp;guid=e99227fc6b8ff48a3a8c9b3d7f62d1e5&amp;type=3#brandBox&quot;); -unity-background-image-tint-color: rgb(30, 217, 30); align-items: center; justify-content: center; bottom: 0; left: 50%; transform-origin: center; translate: -50% 0;">
+                <ui:VisualElement name="GoToMap"
+                                  style="flex-grow: 0; background-image: url(&quot;project://database/Assets/Icons/map.png?fileID=2800000&amp;guid=315b5ecaef50544778fdaf883aa79f99&amp;type=3#map&quot;); background-size: 75% 75%; width: 75%; height: 75%; top: 0; right: auto; flex-direction: column; position: relative; left: 0;"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,28 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/UserInterface/UXML/MapView/MapInterface.uss?fileID=7433441132597879392&amp;guid=c7bdf2a868a4b455180dcefa17d75c85&amp;type=3#MapInterface" />
+    <ui:VisualElement name="Container" picking-mode="Ignore">
+        <ui:VisualElement name="TopArea" picking-mode="Ignore">
+            <ui:VisualElement name="TutorialButton" style="background-image: resource(&apos;Icons/questionMark&apos;); left: 0; width: 40px; height: 40px;" />
+            <ui:Label text="Sprint 6, Week 2" name="BuildInfo" style="left: -1%; top: -45%; display: none;" />
+            <ui:VisualElement name="Compass" style="background-image: url(&quot;project://database/Assets/Resources/Icons/compass.png?fileID=2800000&amp;guid=115a51746e4e246d282371872d962e0e&amp;type=3#compass&quot;);" />
+        </ui:VisualElement>
+        <ui:VisualElement name="MidSpacer" picking-mode="Ignore" style="flex-grow: 1;" />
+        <ui:VisualElement name="BottomArea">
+            <ui:VisualElement name="BottomBar">
+                <ui:VisualElement name="PlayerCard">
+                    <ui:VisualElement name="PlayerIconAnchor">
+                        <ui:VisualElement name="PlayerCircle">
+                            <ui:VisualElement name="LeftHalf" />
+                            <ui:VisualElement name="RightHalf" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="PlayerIcon" />
+                    </ui:VisualElement>
+                    <ui:Label text="Unknown" name="PlayerName" />
+                </ui:VisualElement>
+                <ui:VisualElement name="MenuButton">
+                    <ui:VisualElement name="MenuIcon" style="background-image: url(&quot;project://database/Assets/Resources/Icons/closedBox.png?fileID=2800000&amp;guid=972b2b822e4a84ce1ac8ffc02c5b53cf&amp;type=3#closedBox&quot;);" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
