@@ -6,6 +6,7 @@ Among others, the key contributors are:
 
 - [Myself](https://github.com/charles-mills)
 - [Saimpreet Singh](https://github.com/S01101S)
+- [Dawid Barka](https://github.com/ZeNyfh)
 
 ## Features
 
